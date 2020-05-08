@@ -1,0 +1,216 @@
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: arial;
+}
+.user-acc-up {
+    margin-left: 20px;
+    margin-top: 50px;
+    max-width: 70%;
+    background: rgba(130, 130, 130, 0.18);
+    padding: 50px;
+    border: 1px solid #f2c300;
+    border-radius: 8px;
+    display: inline-block;
+}
+.user-acc-up .user-acc-text {
+    text-align: center;
+    color: #f2c300;
+    margin-bottom: 30px;
+}
+.user-acc-up .user-acc-text {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.user-acc-up .org-btn {
+    margin-left: 30px;
+    text-align: center;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #f2c300;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+}
+.user-acc-up .org-btn:focus {
+    outline :none;
+}
+.user-acc-up .org-btn:hover {
+    cursor: pointer;
+    background-color: #c7a102;
+    transition:0.2s;
+}
+.person-details {
+    border-radius: 8px;
+    padding: 20px 10px;
+    margin: 40px 0;
+    background-color: #5384f7;
+    margin-bottom: 0;
+}
+.wrapper {
+    position: absolute;
+    top: 160px;
+    max-width: 25%;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.all-options {
+    border: 1px solid #f2c300;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.national-security {
+    border: 1px solid #f2c300;
+    border-radius: 8px;
+    text-align: center;
+    padding: 38px 0;
+}
+.national-security h2 {
+    font-weight: bold;
+    color: #f2c300;
+    font-size: 35px;
+}
+.national-security p {
+    font-weight: bold;
+    color: #f2c300;
+    font-size: 20px;
+}
+.all-options .org-btn{
+    width:100%;
+    text-align: center;
+    padding: 12px 40px;
+    font-size: 18px;
+    background-color: #5384f7;
+    border-radius: 30px;
+    margin: 20px 0;
+    font-weight: bold;
+    border: none;
+}
+.all-options .org-btn:focus {
+    outline :none;
+}
+.all-options .org-btn:hover {
+    cursor: pointer;
+    background-color: #f2c300;
+    transition: 0.2s;
+}
+
+.sign-up {
+    margin: 50px auto;
+    max-width: 500px;
+    background: rgba(130, 130, 130, 0.18);
+    border: 1px solid #f2c300;
+    border-radius: 8px;
+}
+.sign-up .sign-text, .sign-up .sign-desc {
+    /* text-align: center; */
+    color: #f2c300;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+.sign-up .sign-text {
+    font-size: 24px;
+    /* padding-top: 20px; */
+}
+.sign-up .sign-desc {
+    /* max-width: 400px; */
+    font-size: 14px;
+    /* margin: 0 auto; */
+}
+.submit-btn {
+    padding: 6px 50px;
+    font-size: 16px;
+    background-color: #5384f7;
+    border-radius: 30px;
+    margin-left: 40px;
+    min-width: 0;
+    border: none;
+}
+.submit-btn:focus {
+    outline :none;
+}
+.submit-btn:hover {
+    cursor: pointer;
+}
+.form-wrapper {
+    margin: 40px 0px;
+}
+.info-form label {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.info-form input{
+    font-size: 16px;
+    background-color: rgba(154, 182, 247, 0.7);
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 4px 10px;
+    min-width: 220px;
+}
+.checkbox-wrapper {
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+}
+.form-wrapper{
+    display: inline-block;
+}
+.type-account {
+    display: block;
+}
+.access {
+    display: block;
+    margin-top: 20px;
+}
+
+.form-wrapper .a {margin-left: 70px;}
+.form-wrapper .b {margin-left: 105px;}
+.form-wrapper .d {margin-left: 45px;}
+.sign-up .org-btn {
+    padding: 6px 30px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #f2c300;
+    border-radius: 30px;
+    border: 1px solid #f2c300;
+}
+.sign-up .org-btn:focus {
+    outline :none;
+}
+.sign-up .org-btn:hover {
+    cursor: pointer;
+}
+.info-form .email-input {
+    margin-left: 65px;
+}
+.info-form .pwd-input {
+    margin-left: 40px;
+}
+.info-form input:focus {
+    outline :none;
+}
+.checkbox-wrapper input{
+    position: absolute;
+    right: 140px;
+}
+.checkbox-wrapper .checkbox-wrapper-laForge,
+.checkbox-wrapper .checkbox-wrapper-admin,
+.checkbox-wrapper .checkbox-wrapper-vol,
+.checkbox-wrapper .checkbox-wrapper-access {
+    margin-left: 30px;
+}
+.submit .delete, .submit .back {
+    background-color: rgba(242, 195, 0, 0.35);
+}
+.submit .delete:hover, .submit .back:hover {
+    color: #f2c300;
+    background-color: black;
+    transition: 0.2s;
+}

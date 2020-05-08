@@ -1,0 +1,71 @@
+<html>
+  <head></head>
+<body>
+<div class="main-wrapper">
+    <div class="user-acc-up">
+        <span class="user-acc-text">User Account</span>
+        <button class="org-btn">Add to Group</button>
+        <div class="person-details">
+                <form class="info-form" action="#">
+                        <div class="form-wrapper">
+                            <div class="form-wrapper">
+                                <label for="fname">Full name</label>
+                                <input class="a" type="text" id="fname" name="fname"><br>
+
+                                <label for="email">Email</label>
+                                <input class="b" type="email" id="email" name="email"><br>
+                                
+                                <label for="phoneNumber">Phone number</label>
+                                <input class="c" type="number" id="phoneNumber" name="phoneNumber"><br>
+                                
+                                <label for="org">Organization</label>
+                                <input class="d" type="text" id="org" name="org"><br>
+
+                                <label for="github">Github Handle</label>
+                                <input class="e" type="text" id="github" name="github"><br>
+                            </div>
+
+                            <div class="checkbox-wrapper">
+                                <label class="type-account">Type of Account:</label>
+                                <div class="checkbox-wrapper-admin">
+                                    <label for="admin">Admin</label>
+                                    <input class="f1" type="checkbox" id="admin" value="admin" name="admin"><br>                            </div>
+                                <div class="checkbox-wrapper-vol">
+                                    <label for="volunteer">Volunteer</label>
+                                    <input class="f2" type="checkbox" id="volunteer" value="volunteer" name="volunteer"><br>
+                                </div>
+                                <label class="access">Access:</label>
+                                <div class="checkbox-wrapper-access">
+                                    <label for="Repository">Repository</label>
+                                    <input class="g1" type="checkbox" id="Repository" value="Repository" name="Repository"><br>
+                                </div>
+                                <div class="checkbox-wrapper-laForge">
+                                    <label for="LaForge">LaForge only</label>
+                                    <input class="g2" type="checkbox" id="LaForge" value="LaForge" name="LaForge"><br>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="submit">
+                            <button class="org-btn back" routerLink="/">Back</button>
+                            <button class="org-btn delete" routerLink="/">Delete</button>
+                            <input class = "org-btn submit-btn" type="submit" value="Save" routerLink="/create-account">
+                        </div>
+                </form>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="all-options">
+            <button class="org-btn">Volunteers</button>
+            <button class="org-btn">Groups</button>
+            <button class="org-btn">Account</button>
+            <button class="org-btn">Events</button>
+        </div>
+        <div class="national-security">
+            <h2>National Cyber Security Event</h2>
+            <p>Date: {{currentDate | date:'MM / dd / yyyy'}} </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

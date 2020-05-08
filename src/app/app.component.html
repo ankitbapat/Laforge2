@@ -1,0 +1,13 @@
+<html>
+  <head></head>
+<body>
+  <div class="header">
+    <p class="icon">LaForge</p>
+    <ng-template [ngIf] = " router.url == '/' ">
+      <p class ="Signin">National Cyber Security Event<a href="#"> / Profile</a></p>  
+    </ng-template>          
+  </div>
+  <div class="header-divider"></div>
+</body>
+<router-outlet></router-outlet>
+</html>
